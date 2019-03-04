@@ -1,0 +1,120 @@
+#home {
+	.menu {
+		margin-top: 52px;
+		.menu-headline {
+			font-family: $ff-pd;
+			font-weight: bold;
+			color: $black;
+			text-align: center;
+			font-size: 2.1875rem;
+		}
+		.meals {
+			border-bottom: 2px dotted #eee;
+			display: flex;
+			justify-content: center;
+			height: 80px;
+			margin-bottom: 32px;
+			.meal {
+				display: inline-block;
+				text-align: center;
+				padding: 0 1.5rem;
+				&:hover a p {
+					color: $pink;
+				}
+				a {
+					height: 100%;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					text-decoration: none;
+					.icon {
+
+					}
+					p {
+						margin: 0 0 16px;
+						font-family: $ff-pd;
+						font-size: 1.25rem;
+						font-weight: bold;
+						color: $black;
+						transition: color 400ms;
+					}
+				}
+			}
+		}
+		.type {
+			.item {
+				margin-top: 0;
+				.dish {
+					height: 84px;
+					display: flex;
+					justify-content: space-between;
+					border-bottom: 1px solid #eeeeee;
+					.description {
+						display: inline-block;
+						padding-top: 20px;
+						.title {
+							color: $black;
+							font-weight: bold;
+							font-family: $ff-sin;
+							text-transform: uppercase;
+							margin-bottom: 0;
+							font-size: 1rem;
+						}
+						.subtitle {
+							font-size: 0.875rem;
+							color: $grey;
+							margin: 0;
+						}
+					}
+					.price {
+						display: inline-block;
+						color: $theme;
+						font-family: $ff-pd;
+						font-size: 1.625rem;
+						font-weight: bold;
+						line-height: 1.625rem;
+						span {
+							font-size: 1rem;
+							vertical-align: top;
+						}
+					}
+				}
+			}
+		}
+		.link-section {
+			text-align: center;
+			padding: 26px 0 32px;
+			.menu-link {
+				display: inline-block;
+				.box {
+					width: 199px;
+					height: 47px;
+					background: $theme;
+					position: relative;
+					border-radius: 3px;
+					text-align: center;
+					&::after {
+						content: '';
+						position: absolute;
+						top: 3px;
+						right: 3px;
+						bottom: 3px;
+						left: 3px;
+						border: 1px solid $white;
+						border-radius: 3px;
+					}
+					p {
+						display: inline-block;
+						margin: 0;
+						color: $white;
+						text-transform: uppercase;
+						font-family: $ff-sin;
+						font-size: 14px;
+						padding-top: 14px;
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+}

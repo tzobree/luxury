@@ -1,0 +1,85 @@
+.header {
+	max-width: 1920px;
+	margin: 0 auto;
+	.navbar {
+		height: 90px;
+		background: $white;
+		.logo-link {
+			.logo {
+				width: 212px;
+				height: 41px;
+				background: url('img/header-logo.png');
+			}
+		}
+		.nav-links {
+			.item {
+				.link {
+					font-family: $ff-sin;
+					color: $black;
+					font-size: 0.875rem;
+					font-weight: bold;
+					color: #2c465a;
+				}
+				.basket {
+					display: flex;
+					position: relative;
+					min-width: 70px;
+					.items {
+						color: $white;
+						background: $pink;
+						width: 16px;
+						height: 16px;
+						border-radius: 8px;
+						text-align: center;
+						margin: 0;
+						font-size: 11px;
+						font-family: $ff-sin;
+						font-weight: bold;
+						z-index: 1;
+						position: absolute;
+						bottom: 40px;
+						left: 28px;
+					}
+					.cart {
+						margin-right: 12px;;
+					}
+				}
+			}
+		}
+		.book-link {
+			.book {
+				width: 199px;
+				height: 47px;
+				background: $theme;
+				position: relative;
+				border-radius: 3px;
+				text-align: center;
+				display: inline-block;
+				&::after {
+					content: "";
+					position: absolute;
+					top: 3px;
+					right: 3px;
+					bottom: 3px;
+					left: 3px;
+					border: 1px solid $white;
+					border-radius: 3px;
+				}
+				.img {
+					display: inline-block;
+				}
+				p {
+					display: inline-block;
+					margin: 0;
+					color: $white;
+					text-transform: uppercase;
+					font-family: $ff-sin;
+					font-size: 14px;
+					padding-top: 14px;
+					padding-left: 10px;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,124 @@
+#home {
+	.specials {
+		.muted-bg {
+			background: url('http://via.placeholder.com/1920x440');
+			height: 440px;
+			background-size: cover;
+			background-position: center;
+			.overlay {
+				width: 100%;
+				height: 100%;
+				background: rgba(76,86,89,0.8);
+			}
+		}
+	}
+	.today-special {
+		margin-top: -350px;
+		.today-headline {
+			font-family: $ff-pd;
+			font-size: 2.1875rem;
+			color: $white;
+			font-weight: bold;
+			text-align: center;
+			margin-bottom: -14px;
+		}
+		.slider {
+			padding: 0 16px 40px;
+			margin: 0 -16px;
+			.dotnav {
+				justify-content: flex-end;
+				margin-bottom: 24px;
+				li {
+					padding-left: 4px;
+				}
+				.uk-active {
+					a {
+						border: 2px solid rgba(254,161,0,0.6);
+						background-color: $theme;
+					}
+				}
+			}
+			.uk-dotnav>*>* {
+				width: 14px;
+				height: 14px;
+				border: 2px solid rgba(255,255,255,0.6);
+				color: $white;
+			}
+			.uk-slider-items {
+				.slide {
+					.card {
+						box-shadow: 0 24px 32px -4px rgba(100,100,100,0.2);
+						.image-box {
+							.img {
+								background: url('http://via.placeholder.com/580x420');
+								background-size: cover;
+								background-position: center;
+								width: 100%;
+								height: 420px;
+							}
+						}
+						.description {
+							padding-bottom: 0;
+							.title {
+								font-family: $ff-pd;
+								text-align: center;
+								font-size: 1.625rem;
+								font-weight: bold;
+								color: $black;
+								margin-bottom: 12px;
+							}
+							.text {
+								text-align: center;
+								font-family: $ff-sin;
+								font-size: 0.875rem;
+								color: $grey;
+								margin-top: 12px;
+								margin-bottom: 60px;
+							}
+							.delivery {
+								border-top: 2px solid #eee;
+								display: flex;
+								// flex-direction: column;
+								.home {
+									width: 80px;
+									font-family: $ff-sin;
+									text-transform: uppercase;
+									color: $black;
+									font-size: 0.8125rem;
+									font-weight: bold;
+									margin-top: 20px;
+									border-right: 2px solid #eee;
+									span {
+										display: block;
+										color: $pink;
+									}
+								}
+								.phone {
+									flex: 1;
+									font-family: $ff-pd;
+									font-size: 1.625rem;
+									font-weight: bold;
+									color: $black;
+									padding-left: 20px;
+								}
+								.price {
+									flex: 1;
+									font-family: $ff-pd;
+									text-align: right;
+									color: $theme;
+									font-size: 1.875rem;
+									font-weight: bold;
+									line-height: 2.5rem;
+									span {
+										vertical-align: top;
+										font-size: 1.25rem;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

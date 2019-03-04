@@ -1,0 +1,81 @@
+#home {
+	.testimonials {
+		.background {
+			height: 465px;
+			background: url('img/pink_background.png');
+			.uk-container {
+				height: 100%;
+				.slideshow {
+					height: 100%;
+					ul {
+						height: 100%;
+						.slide {
+							width: 100%;
+							position: relative;
+							.testimonial {
+								height: 465px;
+								text-align: center;
+								display: flex;
+								flex-direction: column;
+								justify-content: center;
+								padding: 0 16%;
+								.headline {
+									margin: 0;
+									font-family: $ff-pd;
+									font-size: 2.1875rem;
+									font-weight: bold;
+									color: $white;
+								}
+								.text {
+									position: relative;
+									font-size: 0.9375rem;
+									font-family: $ff-sin;
+									color: $white;
+									.start {
+										position: absolute;
+										top: -8px;
+										left: -64px;
+										transform: rotate(180deg);
+									}
+									.end {
+										position: absolute;
+										bottom: -8px;
+										right: -64px;
+										transform: rotateX(180deg);
+									}
+								}
+								.client {
+									.img {
+										width: 70px;
+										height: 70px;
+										border-radius: 35px;
+										margin: 0 auto;
+										box-sizing: border-box;
+										border: 2px solid $white;
+										margin-top: 4px;
+									}
+									.name {
+										text-transform: uppercase;
+										color: $white;
+										font-family: $ff-sin;
+										font-weight: bold;
+										margin: 12px 0 0;
+									}
+									.ratings {
+										margin: 0;
+										.star {
+											color: yellow;
+										}
+									}
+								}
+							}
+						}
+					}
+					a.uk-slidenav {
+						color: $white;
+					}
+				}
+			}
+		}
+	}
+}

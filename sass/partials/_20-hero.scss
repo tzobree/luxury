@@ -1,0 +1,190 @@
+#home {
+	.hero {
+		.banner {
+			position: relative;
+			.slider {
+				z-index: 0;
+				.dotnav {
+					justify-content: flex-end;
+					li {
+						padding-top: 4px;;
+					}
+					.uk-active {
+						a {
+							border: 2px solid rgba(254,161,0,0.6);
+							background-color: $theme;
+						}
+					}
+				}
+				.uk-dotnav>*>* {
+					width: 14px;
+					height: 14px;
+					border: 2px solid rgba(255,255,255,0.6);
+					color: $white;
+				}
+				.slide {
+					height: 570px;
+					img {
+						height: 100%;
+						object-fit: cover;
+					}
+				}
+				.uk-slider-nav {
+					margin-left: 1.5rem;
+				}
+			}
+			.banner-content {
+				position: absolute;
+				top: 14.5rem;
+				.heading {
+					font-family: $ff-pd;
+					font-size: 3.5rem;
+					font-weight: bold;
+					padding: 0;
+					margin: 0;
+					color: $white;
+				}
+				.subheading {
+					font-family: $ff-pd;
+					font-size: 2.5rem;
+					font-weight: bold;
+					padding: 0;
+					margin: 0;
+					color: $white;
+					span {
+						color: $theme;
+					}
+				}
+			}
+			.explore {
+				display: inline-block;
+				position: absolute;
+				text-decoration: none;
+				bottom: -5rem;
+				.explore-foodmenu {
+					width: 204px;
+					height: 237px;
+					background: url('img/explore-foodmenu.png');
+					.action {
+						color: $white;
+						font-family: $ff-pd;
+						font-size: 22px;
+						font-weight: bold;
+						padding: 100px 40px;
+						text-align: center;
+					}
+				}
+			}
+		}
+		.contact-bar {
+			height: 100px;
+			background: $muted;
+			.bar {
+				display: flex;
+				justify-content: flex-end;
+				.review {
+					width: 240px;
+					height: 100px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					.read-reviews {
+						display: inline-block;
+						margin-left: 12px;
+						.read, .reviews {
+							text-transform: uppercase;
+							font-family: $ff-sin;
+							font-weight: bold;
+							font-size: 14px;
+							margin: 0;
+						}
+						.read {
+							color: #14141d;
+						}
+						.reviews {
+							color: $theme;
+						}
+					}
+					.link {
+						margin-left: 24px;
+						&:hover .arrow {
+							background: $pink;
+						}
+						.arrow {
+							width: 46px;
+							height: 46px;
+							background: $theme;
+							transition: background 300ms;
+							position: relative;
+							border-radius: 23px;
+							text-align: center;
+							&::after {
+								content: '';
+								position: absolute;
+								top: 3px;
+								right: 3px;
+								bottom: 3px;
+								left: 3px;
+								border: 1px solid $white;
+								border-radius: 23px;
+							}
+							p {
+								display: inline-block;
+								margin: 0;
+								color: $black;
+								font-family: $ff-sin;
+								font-size: 14px;
+								font-weight: bold;
+								padding: 12px 0 0 2px;
+							}
+						}
+					}
+				}
+				.call-us {
+					width: 240px;
+					height: 100px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					border-left: 1px solid #d7dee3;
+					.action {
+						display: inline-block;
+						margin-left: 16px;
+						.call-for, .delivery {
+						text-transform: uppercase;
+						font-family: $ff-sin;
+						font-weight: bold;
+						font-size: 14px;
+						margin: 0;
+						}
+						.call-for {
+							color: #14141d;
+						}
+						.delivery {
+							color: $theme;
+						}
+					}
+				}
+				.phone {
+					width: 240px;
+					height: 100px;
+
+					display: flex;
+					align-items: center;
+					justify-content: flex-end;
+					.number {
+						display: block;
+						width: 100%;
+						text-align: right;
+						font-family: $ff-pd;
+						font-weight: bold;
+						font-size: 32px;
+						color: #14141d;
+						border-left: 1px solid #d7dee3;
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+}

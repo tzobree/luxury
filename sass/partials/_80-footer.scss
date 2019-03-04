@@ -1,0 +1,222 @@
+.footer {
+	max-width: 1920px;
+	margin: 0 auto;
+	background: $footer-bg;
+	.content {
+		margin-top: 100px;
+		margin-bottom: 64px;
+		.navigation {
+			.headline {
+				color: $white;
+				font-family: $ff-pd;
+				font-size: 1.5rem;
+				font-weight: bold;
+			}
+			.list {
+				list-style: none;
+				padding: 0;
+				.item {
+					.link {
+						color: $footer-text;
+						text-decoration: none;
+						font-family: $ff-sin;
+						font-size: 0.875rem;
+						transition: color 300ms;
+						&:hover {
+							color: $white;
+						}
+					}
+				}
+			}
+		}
+		.newsletter {
+			.headline {
+				color: $white;
+				font-family: $ff-pd;
+				font-size: 1.5rem;
+				font-weight: bold;
+			}
+			.text {
+				color: $footer-text;
+				font-family: $ff-sin;
+				font-size: 0.875rem;
+				margin-top: 30px;
+				margin-bottom: 12px;
+			}
+			.subscribe {
+				width: 100%;
+				max-width: 470px;
+				height: 52px;
+				display: flex;
+				.field {
+					flex: 2;
+					height: 100%;
+					box-sizing: border-box;
+					border: 2px solid #52535e;
+					transition: border 300ms;
+					-moz-transition: border 300ms;
+					border-radius: 3px;
+					padding-left: 48px;
+					&:focus {
+						color: $white;
+						border: 2px solid $theme;
+					}
+					&:valid {
+						color: $white;
+					}
+					&::placeholder {
+						color: #e6e9eb;
+					}
+					background: url('img/icon_email_orange.png') no-repeat;
+					background-position: left 16px center;
+				}
+				.button {
+					flex: 1;
+					height: 100%;
+					background: $theme;
+					border: none;
+					border-radius: 3px;
+					margin-left: 8px;
+					color: $white;
+					text-transform: uppercase;
+					font-family: $ff-sin;
+					font-weight: bold;
+					font-size: 14px;
+					transition: font-size 300ms;
+					&:hover {
+						font-size: 15px;
+					}
+				}
+			}
+			.social {
+				margin-top: 36px;
+
+				.icon {
+					display: inline-block;
+					margin-right: 4px;
+					.link {
+						width: 52px;
+						height: 52px;
+						border-radius: 26px;
+						text-align: center;
+						display: inline-block;
+						svg {
+							color: $white;
+							transition: color 300ms, transform 300ms;
+							transform: scale(1.2);
+							padding-top: 16px;
+						}
+						&:hover {
+							svg {
+								color: $theme;
+								transform: scale(1.1);
+							}
+						}
+					}
+				}
+
+				.icon {
+					.facebook {
+						background: #3b5998;
+					}
+				}
+				.icon {
+					.twitter {
+						background: #55acee;
+					}
+				}
+				.icon {
+					.google {
+						background: #dd4b39;
+					}
+				}
+			}
+		}
+		.app {
+			.headline {
+				color: $white;
+				font-family: $ff-pd;
+				font-size: 1.5rem;
+				font-weight: bold;
+				margin-bottom: 32px;
+			}
+			.store-link {
+				background: #52535e;
+				width: 220px;
+				height: 62px;
+				margin-bottom: 12px;
+				border-radius: 3px;
+				.button {
+					text-decoration: none;
+					display: flex;
+					align-items: center;
+					height: 100%;
+
+					&:hover svg {
+						color: $theme;
+					}
+					&:hover .label {
+						color: $muted;
+					}
+					svg {
+						padding: 0 20px;
+						width: 32px;
+						height: 32px;
+						color: $white;
+					transition: color 300ms;
+					}
+					.label {
+						display: inline-block;
+						font-family: $ff-sin;
+						color: $white;
+					transition: color 300ms;
+						p {
+							margin: 0;
+
+						}
+						.text {
+							font-size: 11px;
+						}
+						.name {
+							font-size: 18px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.company {
+		font-size: 0.8125rem;
+		text-align: center;
+		padding-bottom: 70px;
+		overflow: hidden;width: 100%;
+		.copyright {
+			color: $footer-text;
+			text-transform: uppercase;
+			font-family: $ff-sin;
+			position: relative;
+			display: inline-block;
+			span {
+				color: $white;
+			}
+
+		}
+		.copyright:before, .copyright:after {
+			content: "";
+			position: absolute;
+			border-bottom: 1px solid #52535e;
+			// height: 100%;
+			// transform: translateY(-50%);
+			top: 8px;
+			width: 130%;
+		}
+		.copyright:before {
+			right: 100%;
+			margin-right: 32px;
+		}
+		.copyright:after {
+			left: 100%;
+			margin-left: 32px;
+		}
+	}
+}

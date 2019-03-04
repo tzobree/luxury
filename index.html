@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Luxury Restaurant</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="css/uikit.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Sintony:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header class="header">
+	<div class="uk-container">
+		<nav class="navbar" uk-navbar>
+			<div class="uk-navbar-left">
+				<a class="logo-link" href="#">
+					<div class="logo">
+
+					</div>
+				</a>
+			</div>
+			<div class="uk-navbar-center">
+				<ul class="nav-links uk-navbar-nav">
+					<li class="item"><a href="" class="link">Home</a></li>
+					<li class="item"><a href="" class="link">Menu</a></li>
+					<li class="item"><a href="" class="link">Reservation</a></li>
+					<li class="item"><a href="" class="link">Recipe</a></li>
+					<li class="item"><a href="" class="link">Blog</a></li>
+					<li class="item"><a href="" class="link">Contact</a></li>
+					<li class="item">
+						<a href="" class="basket">
+							<img src="img/icon_cart.png" alt="" class="cart">
+							<p class="items">3</p>
+							<img src="img/arrow.png" alt="" class="arrow">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="uk-navbar-right">
+				<a class="book-link" href="#">
+					<div class="book">
+						<img src="img/icon_plate.png" alt="">
+						<p>Book Your Table</p>
+					</div>
+				</a>
+			</div>
+
+		</nav>
+	</div>
+</header>
+
+<main id="home">
+
+	<section class="hero">
+		<div class="banner">
+			<div class="slider uk-position-relative" uk-slider="center: true; autoplay: false; autoplay-interval: 8000">
+				<ul class="uk-slider-items">
+					<li class="slide"><img src="http://via.placeholder.com/1920x570" alt=""></li>
+					<li class="slide"><img src="http://via.placeholder.com/1920x570" alt=""></li>
+					<li class="slide"><img src="http://via.placeholder.com/1920x570" alt=""></li>
+				</ul>
+				<ul class="dotnav uk-slider-nav uk-dotnav uk-dotnav-vertical uk-position-center-left"></ul>
+			</div>
+			<div class="uk-container">
+				<div class="banner-content">
+					<h1 class="heading">Taste your fav food</h1>
+					<h2 class="subheading">from <span>luxury restaurant</span></h2>
+
+				</div>
+				<a class="explore" href="#">
+					<div class="explore-foodmenu">
+						<h4 class="action">Explore Food Menu</h4>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="contact-bar">
+			<div class="uk-container">
+				<div class="bar">
+					<div class="review">
+						<img src="img/icon_reviews.png" alt="" class="reviews">
+						<div class="read-reviews">
+							<p class="read">Read</p>
+							<p class="reviews">Reviews</p>
+						</div>
+						<a href="#" class="link">
+							<div class="arrow"><p><i class="fas fa-angle-right"></i></p></div>
+						</a>
+					</div>
+					<div class="call-us">
+						<img src="img/icon_phone_big.png" alt="" class="phone-big">
+						<div class="action">
+							<p class="call-for">Call us now for</p>
+							<p class="delivery">Home Delivery</p>
+						</div>
+					</div>
+					<div class="phone">
+						<p class="number">1-008 005 006</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about uk-section">
+		<div class="uk-container">
+			<div class="uk-grid">
+				<div class="uk-width-1-2@m">
+					<div class="resume">
+						<div class="description">
+							<h2 class="headline">About Restaurant</h2>
+							<p class="text">Adipisci impedit quas, qui consequuntur, fugit sint, architecto non molestias totam necessitatibus quisquam asperiores inventore a! Dolores amet alias et blanditiis animi vero, obcaecati quisquam dignissimos nemo quo excepturi, accusamus eius praesentium. Labore impedit minima vel itaque, hic nesciunt ducimus voluptas facere neque nisi dolore, ex delectus harum vero in placeat aperiam quo esse porro distinctio architecto temporibus cupiditate. Similique reiciendis, quo cupiditate debitis iusto dolorem ipsum praesentium eius ipsa cum totam aut reprehenderit. Est impedit nihil unde, nesciunt ipsa temporibus amet facere magnam illum deserunt commodi blanditiis!</p>
+						</div>
+
+					</div>
+				</div>
+				<div class="images uk-width-1-2@m uk-grid uk-grid-collapse">
+					<div class="column-1 uk-width-1-2">
+						<img src="http://via.placeholder.com/270x150" alt="">
+						<img src="http://via.placeholder.com/270x150" alt="">
+					</div>
+					<div class="column-2 uk-width-1-2">
+						<img src="http://via.placeholder.com/270x150" alt="">
+						<img src="http://via.placeholder.com/270x150" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="specials">
+		<div class="muted-bg">
+			<div class="overlay"></div>
+		</div>
+
+		<div class="today-special">
+			<div class="uk-container">
+				<h2 class="today-headline">Today Special</h2>
+				<div class="slider uk-slider-container" uk-slider>
+					<ul class="dotnav uk-slider-nav uk-dotnav"></ul>
+					<ul class="uk-slider-items uk-child-width-1-2@s" uk-grid  uk-height-match="target: > .slide > .card > .description > .text">
+						<li class="slide">
+							<div class="card uk-card">
+					            <div class="image-box uk-card-media-top">
+									<div class="img"></div>
+					            </div>
+					            <div class="description uk-card-body">
+					                <h3 class="title uk-card-title">Food Name One</h3>
+					                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+					                <div class="delivery">
+										<p class="home">Home <span>Delivery</span></p>
+										<p class="phone">1-008 005 006</p>
+										<p class="price"><span>$</span>89.00</p>
+					                </div>
+					            </div>
+					        </div>
+						</li>
+						<li class="slide">
+							<div class="card uk-card">
+					            <div class="image-box uk-card-media-top">
+									<div class="img"></div>
+					            </div>
+					            <div class="description uk-card-body">
+					                <h3 class="title uk-card-title">Food Name Two</h3>
+					                <p class="text">Voluptatibus impedit odit quasi quidem illo id ex soluta corporis nobis ab, totam quia ipsum velit temporibus eaque accusamus veritatis nemo iure architecto commodi odio neque consequatur perspiciatis.</p>
+					                <div class="delivery">
+										<p class="home">Home <span>Delivery</span></p>
+										<p class="phone">1-008 005 006</p>
+										<p class="price"><span>$</span>89.00</p>
+					                </div>
+					            </div>
+					        </div>
+						</li>
+						<li class="slide">
+							<div class="card uk-card">
+					            <div class="image-box uk-card-media-top">
+									<div class="img"></div>
+					            </div>
+					            <div class="description uk-card-body">
+					                <h3 class="title uk-card-title">Food Name Three</h3>
+					                <p class="text">Quo eos animi labore id ipsam ullam asperiores tempore exercitationem quam, provident deserunt! Nobis eum cum ipsam voluptatibus.</p>
+					                <div class="delivery">
+										<p class="home">Home <span>Delivery</span></p>
+										<p class="phone">1-008 005 006</p>
+										<p class="price"><span>$</span>89.00</p>
+					                </div>
+					            </div>
+					        </div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="menu">
+		<div class="uk-container">
+			<h2 class="menu-headline">Food Menu</h2>
+			<ul class="meals" uk-switcher>
+				<li class="meal">
+					<a href="#">
+						<div class="icon">
+							<img src="img/icon_all.png">
+						</div>
+						<p>All</p>
+					</a>
+				</li>
+				<li class="meal">
+					<a href="#">
+						<div class="icon">
+							<img src="img/icon_breakfast.png">
+						</div>
+						<p>Breakfast</p>
+					</a>
+				</li>
+				<li class="meal">
+					<a href="#">
+						<div class="icon">
+							<img src="img/icon_lunch.png">
+						</div>
+						<p>Lunch</p>
+					</a>
+				</li>
+				<li class="meal">
+					<a href="#">
+						<div class="icon">
+							<img src="img/icon_snacks.png">
+						</div>
+						<p>Snacks</p>
+					</a>
+				</li>
+				<li class="meal">
+					<a href="#">
+						<div class="icon">
+							<img src="img/icon_pizza.png">
+						</div>
+						<p>Pizza</p>
+					</a>
+				</li>
+				<li class="meal">
+					<a href="#">
+						<div class="icon">
+							<img src="img/icon_soups.png">
+						</div>
+						<p>Soups</p>
+					</a>
+				</li>
+				<li class="meal">
+					<a href="#">
+						<div class="icon">
+							<img src="img/icon_dinner.png">
+						</div>
+						<p>Dinner</p>
+					</a>
+				</li>
+			</ul>
+
+			<ul class="uk-switcher">
+				<li class="type">
+					<div class="uk-child-width-1-2" uk-grid>
+						<div class="item">
+							<div class="dish">
+								<div class="description">
+									<h4 class="title">Mediterranean Salad</h4>
+									<p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+								</div>
+								<p class="price"><span>$</span>89.00</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="dish">
+								<div class="description">
+									<h4 class="title">Organic Fruit Salad</h4>
+									<p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+								</div>
+								<p class="price"><span>$</span>29.00</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="dish">
+								<div class="description">
+									<h4 class="title">Vegeterian Salad</h4>
+									<p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+								</div>
+								<p class="price"><span>$</span>29.00</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="dish">
+								<div class="description">
+									<h4 class="title">Organic Fruit Salad</h4>
+									<p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+								</div>
+								<p class="price"><span>$</span>29.00</p>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+
+			<div class="link-section">
+				<a class="menu-link" href="#">
+					<div class="box">
+						<p>Explore Food Menu</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="testimonials">
+		<div class="uk-section">
+			<div class="background">
+				<div class="uk-container">
+					<div class="slideshow uk-position-relative uk-visible-toggle" uk-slider>
+
+					    <ul class="uk-slider-items">
+					        <li class="slide">
+					        	<div class="testimonial">
+									<h3 class="headline">Happy Clients</h3>
+									<p class="text"><span class="start" uk-icon="icon: quote-right; ratio: 1.3"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ad, eos, dicta vero reiciendis est illo. Sed doloremque, necessitatibus inventore, repudiandae nisi consectetur, facere hic iure dolore fuga ab rerum mollitia aliquam explicabo laudantium! Ab voluptatibus quidem tempore iusto perspiciatis.<span class="end" uk-icon="icon: quote-right; ratio: 1.3"></p>
+									<div class="client">
+										<img src="http://via.placeholder.com/66x66" alt="" class="img">
+										<p class="name">Dr. Prabakaran John</p>
+										<p class="ratings">
+											<i class="fas fa-star star"></i>
+											<i class="fas fa-star star"></i>
+											<i class="fas fa-star star"></i>
+											<i class="fas fa-star star"></i>
+											<i class="fas fa-star star"></i>
+										</p>
+									</div>
+
+					        	</div>
+					        </li>
+					        <li class="slide">
+					        	<div class="testimonial">
+									<h3 class="headline">Happy Clients</h3>
+									<p class="text"><span class="start" uk-icon="icon: quote-right; ratio: 1.3"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ad, eos, dicta vero reiciendis est illo. Sed doloremque, necessitatibus inventore, repudiandae nisi consectetur, facere hic iure dolore fuga ab rerum mollitia aliquam explicabo laudantium! Ab voluptatibus quidem tempore iusto perspiciatis.<span class="end" uk-icon="icon: quote-right; ratio: 1.3"></p>
+									<div class="client">
+										<img src="http://via.placeholder.com/66x66" alt="" class="img">
+										<p class="name">Dr. Prabakaran John</p>
+										<p class="ratings">
+											<i class="fas fa-star star"></i>
+											<i class="fas fa-star star"></i>
+											<i class="fas fa-star star"></i>
+											<i class="fas fa-star star"></i>
+											<i class="fas fa-star star"></i>
+										</p>
+									</div>
+
+					        	</div>
+					        </li>
+					        <li class="slide">
+					        	<div class="testimonial">
+									<h3 class="headline">Happy Clients</h3>
+									<p class="text"><span class="start" uk-icon="icon: quote-right; ratio: 1.3"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ad, eos, dicta vero reiciendis est illo. Sed doloremque, necessitatibus inventore, repudiandae nisi consectetur, facere hic iure dolore fuga ab rerum mollitia aliquam explicabo laudantium! Ab voluptatibus quidem tempore iusto perspiciatis.<span class="end" uk-icon="icon: quote-right; ratio: 1.3"></p>
+									<div class="client">
+										<img src="http://via.placeholder.com/66x66" alt="" class="img">
+										<p class="name">Dr. Prabakaran John</p>
+										<p class="ratings">
+											<i class="fas fa-star star"></i>
+											<i class="fas fa-star star"></i>
+											<i class="fas fa-star star"></i>
+											<i class="fas fa-star star"></i>
+											<i class="fas fa-star star"></i>
+										</p>
+									</div>
+
+					        	</div>
+					        </li>
+					    </ul>
+
+					    <a class="uk-position-center-left" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+					    <a class="uk-position-center-right" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="reservation">
+		<div class="uk-container">
+			<h3 class="headline">Reserve your table</h3>
+			<div class="uk-child-width-1-2@m" uk-grid>
+				<div class="image">
+					<img src="http://via.placeholder.com/559x334" alt="" class="img">
+				</div>
+				<div class="form-area">
+					<form class="form" id="reservation-form">
+						<div class="line uk-child-width-1-2@m uk-grid-medium" uk-grid>
+							<div class="field name">
+								<input type="text" class="uk-input uk-form-blank" placeholder="Name*">
+							</div>
+							<div class="field date">
+								<input type="text" class="uk-input uk-form-blank" placeholder="Date*">
+							</div>
+						</div>
+						<div class="line uk-child-width-1-2@m uk-grid-medium" uk-grid>
+							<div class="field time">
+								<input type="text" class="uk-input uk-form-blank" placeholder="Time*">
+							</div>
+							<div class="field guests">
+								<input type="text" class="uk-input uk-form-blank" placeholder="Guests*">
+							</div>
+						</div>
+						<div class="line uk-child-width-1-2@m uk-grid-medium" uk-grid>
+							<div class="field email">
+								<input type="text" class="uk-input uk-form-blank" placeholder="Email*">
+							</div>
+							<div class="field phone">
+								<input type="text" class="uk-input uk-form-blank" placeholder="Phone*">
+							</div>
+						</div>
+					</form>
+					<div class="submit-or-call">
+						<div class="uk-child-width-1-3@m uk-grid-collapse" uk-grid>
+							<div class="button-div">
+								<button type="submit" form="reservation-form" class="form-button" href="#">
+									<div class="box">
+										<p>Make Reservation</p>
+									</div>
+								</button>
+							</div>
+							<div class="info">
+								<div class="call">
+									<p class="call-to">You can also call</p>
+									<p class="action">For reservation</p>
+								</div>
+							</div>
+							<div class="phone">
+								<p class="number">1-008 005 006</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer">
+		<div class="uk-container">
+			<div class="content">
+				<div uk-grid>
+					<div class="navigation uk-width-1-4@m">
+						<h4 class="headline">Navigation</h4>
+						<ul class="list">
+							<li class="item"><a href="" class="link">Home</a></li>
+							<li class="item"><a href="" class="link">Menu</a></li>
+							<li class="item"><a href="" class="link">Reservation</a></li>
+							<li class="item"><a href="" class="link">Recipe</a></li>
+							<li class="item"><a href="" class="link">Blog</a></li>
+							<li class="item"><a href="" class="link">Contact</a></li>
+						</ul>
+					</div>
+					<div class="newsletter uk-width-1-2@m">
+						<h4 class="headline">News letter</h4>
+						<p class="text">Enter your email address and subscribe daily newsletter</p>
+						<div class="subscribe">
+							<input type="text" class="field uk-form-blank" placeholder="Email Address">
+							<button class="button">Subscribe</button>
+						</div>
+						<div class="social">
+							<div class="icon">
+								<a href="" class="facebook link">
+									<i class="fab fa-facebook-f fb"></i>
+								</a>
+							</div>
+							<div class="icon">
+								<a href="" class="twitter link">
+									<i class="fab fa-twitter tw"></i>
+								</a>
+							</div>
+							<div class="icon">
+								<a href="" class="google link">
+									<i class="fab fa-google-plus-g gp"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="app uk-width-1-4@m">
+						<h4 class="headline">Our app available</h4>
+						<div class="store-link mac">
+							<a href="#" class="button">
+								<i class="fab fa-apple"></i>
+								<div class="label">
+									<p class="text">Available on the</p>
+									<p class="name">App Store</p>
+								</div>
+							</a>
+						</div>
+						<div class="store-link google">
+							<a href="#" class="button">
+								<i class="fab fa-google-play"></i>
+								<div class="label">
+									<p class="text">Get it on</p>
+									<p class="name">Play Store</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="company">
+				<p class="copyright">
+					2016 &copy; <span>Luxury Restaurant</span>, all rights reserved
+				</p>
+			</div>
+		</div>
+	</section>
+	
+</main>
+</body>
+</html>
